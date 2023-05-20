@@ -1,0 +1,25 @@
+<!-- Voltar ao Topo -->
+    
+<div class="scroll-top-wrapper">
+ <img src="imagens/up.png" alt="">
+    <!-- <i class="fa fa-2x fa-arrow-circle-up"></i> -->
+  </span>
+</div>
+
+<script src="external/top/jquery.min.js"></script>
+    <script src="external/top/jquery.easing.min.js"></script>
+    <script src="external/top/bootstrap.min.js"></script>
+    <script src="external/top/custom.js"></script>
+    <script src="external/top/contactform.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Voltar ao Topo -->
+
+
+
+======================
+Instruções:
+======================
+
+Adicionar abaixo do fechamento da tag </footer>
+Adicionar o código do CSS ao seu CSS padrão.
