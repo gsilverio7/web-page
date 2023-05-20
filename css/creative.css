@@ -14,18 +14,18 @@
  hr {
    max-width: 50px;
    border-width: 3px;
-   border-color: #8a695c; }
+   border-color: #b100db; }
  
  hr.light {
    border-color: #fff; }
  
  a {
-   color: #8a695c;
+   color: #b100db;
    -webkit-transition: all 0.2s;
    -moz-transition: all 0.2s;
    transition: all 0.2s; }
    a:hover {
-     color: #8a695c; }
+     color: #b100db; }
  
  h1,
  h2,
@@ -36,10 +36,10 @@
    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
  
  .bg-primary {
-   background-color: #8a695c !important; }
+   background-color: #73018f !important; }
  
  .bg-dark {
-   background-color: #8a695c !important; }
+   background-color: #b100db !important; }
  
  .text-faded {
    color: rgba(255, 255, 255, 0.7); }
@@ -96,7 +96,7 @@
        color: #F05F40; }
      #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-       color: #8a695c !important;
+       color: #b100db !important;
        background-color: transparent; }
        #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -129,12 +129,12 @@
            color: #212529; }
            #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
            #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-             color: #8a695c; } }
+             color: #b100db; } }
  
  header.masthead {
    padding-top: 10rem;
    padding-bottom: calc(10rem - 56px);
-   background-image: url("../imagens/bg02.png");
+   background-image: url("../imagens/bg03.jpg");
    background-position: center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -223,15 +223,15 @@
    padding: 1rem 2rem; }
  
  .btn-primary {
-   background-color: #8a695c;
+   background-color: #b100db;
    
    border: 2px solid #fff}
    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
      color: #fff;
-     background-color: #3d251c !important;
-     border-color: #8a695c}
+     background-color: #73018f !important;
+     border-color: #b100db}
    .btn-primary:active, .btn-primary:focus {
-     box-shadow: 0 0 0 0.2rem #8a695c !important; }
+     box-shadow: 0 0 0 0.2rem #b100db !important; }
  
  
  .scroll-top-wrapper {
