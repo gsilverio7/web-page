@@ -12,15 +12,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: spin 2s linear infinite;
 }
 
-.loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #333;
-  border-top-color: transparent;
+.loading-helice {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #333;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  border-top-color: transparent;
+  position: relative;
+}
+
+.loading-helice:before,
+.loading-helice:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 10px;
+  background-color: #333;
+}
+
+.loading-helice:before {
+  transform-origin: right;
+  transform: rotate(45deg);
+}
+
+.loading-helice:after {
+  transform-origin: left;
+  transform: rotate(-45deg);
 }
 
 @keyframes spin {
