@@ -275,8 +275,8 @@
  /* adicionando footer */
  
  footer{
-   background-color: #3d251c;
-   padding: 1em;
+   background-color: green;
+   padding: 15px;
    color: #fff;
    text-align: center;
  }
